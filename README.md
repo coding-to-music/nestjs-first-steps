@@ -1,3 +1,5 @@
+# Nextjs First Steps Tutorial
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
@@ -73,9 +75,33 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 
+# NextJS First steps
+
+In this set of articles, you'll learn the **core fundamentals** of Nest. To get familiar with the essential building blocks of Nest applications, we'll build a basic CRUD application with features that cover a lot of ground at an introductory level.
+
+#### Language
+
+We're in love with [TypeScript](https://www.typescriptlang.org/), but above all - we love [Node.js](https://nodejs.org/en/). That's why Nest is compatible with both TypeScript and **pure JavaScript**. Nest takes advantage of the latest language features, so to use it with vanilla JavaScript we need a [Babel](https://babeljs.io/) compiler.
+
+We'll mostly use TypeScript in the examples we provide, but you can always **switch the code snippets** to vanilla JavaScript syntax (simply click to toggle the language button in the upper right hand corner of each snippet).
+
+#### Prerequisites
+
+Please make sure that [Node.js](https://nodejs.org/) (>= 10.13.0, except for v13) is installed on your operating system.
+
+#### Setup
+
+Setting up a new project is quite simple with the [Nest CLI](/cli/overview). With [npm](https://www.npmjs.com/) installed, you can create a new Nest project with the following commands in your OS terminal:
+
+```bash
+$ npm i -g @nestjs/cli
+$ nest new project-name
+```
+
 https://docs.nestjs.com/first-steps
 
 
+Insgtall the @nestjs/cli 
 ```java
 npm i -g @nestjs/cli
 ```
@@ -88,8 +114,11 @@ added 257 packages, and audited 258 packages in 18s
   run `npm fund` for details
 
 found 0 vulnerabilities
+```
 
-created `nest new nestjs-first-steps`
+Create new project
+```java
+nest new nestjs-first-steps
 
 ⚡  We will scaffold your app in a few seconds..
 
@@ -126,28 +155,6 @@ $ npm run start
        🍷  Donate: https://opencollective.com/nest
 ```
 
-### First steps
-
-In this set of articles, you'll learn the **core fundamentals** of Nest. To get familiar with the essential building blocks of Nest applications, we'll build a basic CRUD application with features that cover a lot of ground at an introductory level.
-
-#### Language
-
-We're in love with [TypeScript](https://www.typescriptlang.org/), but above all - we love [Node.js](https://nodejs.org/en/). That's why Nest is compatible with both TypeScript and **pure JavaScript**. Nest takes advantage of the latest language features, so to use it with vanilla JavaScript we need a [Babel](https://babeljs.io/) compiler.
-
-We'll mostly use TypeScript in the examples we provide, but you can always **switch the code snippets** to vanilla JavaScript syntax (simply click to toggle the language button in the upper right hand corner of each snippet).
-
-#### Prerequisites
-
-Please make sure that [Node.js](https://nodejs.org/) (>= 10.13.0, except for v13) is installed on your operating system.
-
-#### Setup
-
-Setting up a new project is quite simple with the [Nest CLI](/cli/overview). With [npm](https://www.npmjs.com/) installed, you can create a new Nest project with the following commands in your OS terminal:
-
-```bash
-$ npm i -g @nestjs/cli
-$ nest new project-name
-```
 
 The `project-name` directory will be created, node modules and a few other boilerplate files will be installed, and a `src/` directory will be created and populated with several core files.
 
