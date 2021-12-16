@@ -100,6 +100,7 @@ $ nest new project-name
 
 https://docs.nestjs.com/first-steps
 
+https://github.com/nestjs/docs.nestjs.com/blob/589cfb4fc7f3a55f7b6c28834f5b8ba0ed7d0f04/content/first-steps.md
 
 Insgtall the @nestjs/cli 
 ```java
